@@ -7,6 +7,7 @@
 
 module.exports = {
     test: function(req) {
+        console.log(req.body);
         console.log(req.body.shouldFail);
     }
 };
